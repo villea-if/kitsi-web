@@ -11,15 +11,7 @@ Specialty coffee bar website and web fundamentals training repository.
 ## Git Workflow (Basic Instructions)
 
 **Rule #1: Never commit or push directly to `main`.**
-`main` is protected. All changes go through a feature branch and a Pull Request (PR).
-
-### One-Time Local Hook Setup
-
-Enable the repository's Git hooks so Git blocks accidental commits or pushes to `main` locally:
-
-```bash
-git config core.hooksPath .githooks
-```
+`main` is protected on GitHub. All changes go through a feature branch and a Pull Request (PR).
 
 ### Everyday Step-by-Step Workflow
 
