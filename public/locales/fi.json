@@ -1,0 +1,192 @@
+{
+  "ui": {
+    "brand": {
+      "name": "KITSI",
+      "code": "KTS // 01"
+    },
+    "nav": {
+      "home": "Etusivu",
+      "menu": "Valikoima",
+      "about": "Filosofia",
+      "visit": "Sijainti & Yhteys"
+    },
+    "locale": {
+      "label": "Kieli",
+      "fi": "FI",
+      "en": "EN",
+      "no": "NO",
+      "sv": "SV",
+      "keys": "KEYS",
+      "keysHint": "Avaintarkastelutila käytössä — näytetään käännösavaimet (en.json)"
+    },
+    "actions": {
+      "exploreMenu": "Tutustu valikoimaan",
+      "ourPhilosophy": "Lue filosofiamme",
+      "findUs": "Aukiolo & sijainnit",
+      "filterAll": "Kaikki tuotteet",
+      "sendMessage": "Lähetä viesti",
+      "resetForm": "Tyhjennä"
+    },
+    "labels": {
+      "category": "Kategoria",
+      "price": "Hinta",
+      "dietary": "Erityisruokavaliot & allergeenit",
+      "origin": "Alkuperä",
+      "process": "Prosessi",
+      "roast": "Paahtoaste",
+      "notes": "Makuprofiili",
+      "hours": "Aukioloajat",
+      "address": "Osoite",
+      "transit": "Julkinen liikenne",
+      "statusOpen": "Avoinna päivittäin",
+      "currency": "EUR"
+    },
+    "dietary": {
+      "vegan": "Vegaaninen",
+      "oat": "Oletuksena kaura",
+      "gluten": "Sisältää gluteenia",
+      "dairy": "Sisältää maitoa",
+      "caffeineFree": "Kofeiiniton"
+    },
+    "form": {
+      "heading": "Ota yhteyttä",
+      "nameLabel": "Nimi",
+      "namePlaceholder": "Koko nimesi",
+      "emailLabel": "Sähköposti",
+      "emailPlaceholder": "nimi@esimerkki.fi",
+      "topicLabel": "Aihe",
+      "topicGeneral": "Yleinen tiedustelu",
+      "topicWholesale": "Tukkumyynti & paahtimo",
+      "topicEvents": "Yksityinen cupping-maistelu",
+      "messageLabel": "Viesti",
+      "messagePlaceholder": "Kirjoita viestisi tai maistelutoiveesi...",
+      "submittedNotice": "Kiitos. Viestisi on kirjattu baaritiimille."
+    },
+    "footer": {
+      "colophon": "Pelkistetty espressobaari — Toteutettu ilman käännösvaihetta Vue 3:lla & JSON-lokalisoinnilla",
+      "copyright": "© Kitsi Coffee Bar. Kaikki oikeudet pidätetään."
+    }
+  },
+  "content": {
+    "hero": {
+      "eyebrow": "ARKKITEHTONINEN ESPRESSO & TARKKUUSSUODATUS",
+      "title": "Betonia, höyryä ja alkuperäkahvin kirkkautta.",
+      "subtitle": "Tokion pystybaareista ja pohjoismaisista vaaleapaahtoisista kahveista inspiroitunut. Jokainen kuppi punnitaan kymmenesosagramman tarkkuudella — ilman turhaa hälyä.",
+      "featuredNote": "Myllyssä nyt: Ethiopia Yirgacheffe Worka — pesty bergamotti & valkopersikka."
+    },
+    "highlights": {
+      "precision": {
+        "index": "01",
+        "title": "Gravimetrinen uutto",
+        "body": "Jokainen espresso ja käsinuutto valmistetaan tarkan uuttosuhteen, veden mineraaliprofiilin ja lämpökäyrän mukaan."
+      },
+      "space": {
+        "index": "02",
+        "title": "Mustavalkoinen rauha",
+        "body": "Raakabetoniset tiskit, harjattu teräs ja rauhallinen akustiikka viidentoista minuutin keskittymiseen."
+      },
+      "sourcing": {
+        "index": "03",
+        "title": "Mikroerien läpinäkyvyys",
+        "body": "Kauden pientilojen sadot paahdetaan puhtaasti, jotta alkuperän luonne säilyy paahtimen varjon sijaan."
+      }
+    },
+    "menu": {
+      "heading": "Baarin valikoima",
+      "lead": "Tiivis päivittäinen lista. Kaikki maitokahvit höyrytetään oletuksena kaurajuomaan; luomumaito saatavilla pyydettäessä.",
+      "categories": {
+        "espresso": "01 / Espresso & Suodatin",
+        "matcha": "02 / Matcha & Haudukkeet",
+        "pastry": "03 / Tiskin leipomo"
+      },
+      "items": {
+        "hand_pour": {
+          "title": "V60 Single-Origin -käsinuutto",
+          "description": "Tilauksesta käsin uutettu suodatinkahvi vaihtuvasta mikroerähyllystämme. Tarjoillaan karahvissa esilämmitetyn maistelulasin kera."
+        },
+        "double_espresso": {
+          "title": "Tuplaespresso",
+          "description": "18 g sisään, 40 g ulos. Kirkas hapokkuus, siirappinen suutuntuma ja puhdas kukkainen jälkimaku."
+        },
+        "oat_cortado": {
+          "title": "Tokyo Cortado",
+          "description": "Yhtä suuret osat tuplaristrettoa ja silkkiseksi vaahdotettua kaurajuomaa 120 ml karkaistussa lasissa."
+        },
+        "cold_brew_tonic": {
+          "title": "Yuzu Espresso Tonic",
+          "description": "Jäähdytetty pesty espresso kerrostettuna kuivan tonic-veden ja aromaattisen Kochin yuzu-kuoren päälle."
+        },
+        "ceremonial_matcha": {
+          "title": "Uji Ceremonial Usucha",
+          "description": "Ensimmäisen sadon kivijauhettu Uji-matcha vispattuna tilauksesta 78 °C pehmeään lähdeveteen."
+        },
+        "hojicha_latte": {
+          "title": "Paahdettu Hojicha Latte",
+          "description": "Hiilipaahdettu Kioton vihreä tee höyrytettynä kaurajuoman kanssa. Luontaisesti vähäkofeiininen, savuisen kaakaoinen maku."
+        },
+        "black_sesame_financier": {
+          "title": "Mustasesam-financier",
+          "description": "Rapeareunainen paahdetusta mantelista ja mustasta seesamista joka aamu tuoreena paistettu leivos."
+        },
+        "cardamom_knot": {
+          "title": "Kardemummasolmu",
+          "description": "Hapanjuureen leivottu pohjoismainen briossisolmu, jossa on morttelissa rouhittua vihreää kardemummaa ja raesokeria."
+        }
+      }
+    },
+    "about": {
+      "heading": "Filosofia & Paahto",
+      "lead": "Kitsi riisuu kahvilan kahteen ydinosaan: raaka-aineen viljelylaatuun ja kurinalaiseen uuttoon.",
+      "storyTitle": "Vähemmän koristetta, enemmän kahvia",
+      "storyP1": "Kitsi syntyi Tokion kuusipaikkaisten kissaten-kahviloiden ja pohjoismaisten pienpaahtimoiden opissa vastapainoksi rönsyileville listoille ja sokerisiirapeille.",
+      "storyP2": "Tiskimme on yhtenäinen valubetonin ja harjatun teräksen linja — ei esteitä myllyn, uuttajan ja vieraan välillä.",
+      "lotsHeading": "Baarissa olevat papuerät",
+      "lotsLead": "Saatavilla käsinuutettuna tiskiltä tai 250 g papupurkeissa kotiin.",
+      "lots": {
+        "worka": {
+          "name": "Worka Sakaro #04",
+          "origin": "Gedeb, Etiopia (2 150 m)",
+          "process": "Pesty, 72 h fermentointi",
+          "roast": "Vaalea / Suodatin & moderni espresso",
+          "notes": "Bergamotti, valkopersikka, jasmiinitee"
+        },
+        "huila": {
+          "name": "Finca El Diviso",
+          "origin": "Huila, Kolumbia (1 850 m)",
+          "process": "Pink Bourbon, Honey-prosessi",
+          "roast": "Vaalea keskipaahto / Espresso",
+          "notes": "Punaherukka, panela-ruokosokeri, paahdettu kaakaonibsi"
+        },
+        "uji": {
+          "name": "Samidori First Flush",
+          "origin": "Uji, Kioton prefektuuri, Japani",
+          "process": "Varjossa kasvatettu tencha, graniittijauhettu",
+          "roast": "Paahtamaton tee",
+          "notes": "Makea nori, höyrytetty edamame, pitkä umami"
+        }
+      }
+    },
+    "visit": {
+      "heading": "Saavu baariin",
+      "lead": "Ei pöytävarauksia. Astu sisään, istahda betonitiskille tai ota juoma mukaan.",
+      "locations": {
+        "punavuori": {
+          "name": "Kitsi 01 — Lippuvalikoiman espressobaari",
+          "city": "Helsinki",
+          "address": "Pursimiehenkatu 14, 00150 Helsinki",
+          "hours": "Ma–Pe 07.30–17.00 · La–Su 09.00–16.00",
+          "transit": "Raitiovaunut 1, 3, 6 (Iso Roobertinkatu / Telakkakatu)",
+          "note": "Täysi pour-over-tiski, papuhylly ja 14 betonipenkkiä."
+        },
+        "grunerlokka": {
+          "name": "Kitsi 02 — Pystybaari",
+          "city": "Oslo",
+          "address": "Thorvald Meyers gate 42, 0555 Oslo",
+          "hours": "Ma–Pe 07.30–16.30 · La–Su 09.30–16.00",
+          "transit": "Raitiovaunut 11, 12, 18 (Olaf Ryes plass)",
+          "note": "Nopea pystyespressobaari ja Uji-matchatiski."
+        }
+      }
+    }
+  }
+}

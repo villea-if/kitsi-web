@@ -1,0 +1,192 @@
+{
+  "ui": {
+    "brand": {
+      "name": "KITSI",
+      "code": "KTS // 01"
+    },
+    "nav": {
+      "home": "Index",
+      "menu": "Menu",
+      "about": "Philosophy",
+      "visit": "Visit & Contact"
+    },
+    "locale": {
+      "label": "Locale",
+      "fi": "FI",
+      "en": "EN",
+      "no": "NO",
+      "sv": "SV",
+      "keys": "KEYS",
+      "keysHint": "Key Inspection Mode active — showing i18n key paths from en.json"
+    },
+    "actions": {
+      "exploreMenu": "Explore Menu",
+      "ourPhilosophy": "Read Philosophy",
+      "findUs": "Locations & Hours",
+      "filterAll": "All Offerings",
+      "sendMessage": "Send Dispatch",
+      "resetForm": "Clear"
+    },
+    "labels": {
+      "category": "Category",
+      "price": "Price",
+      "dietary": "Dietary & Allergens",
+      "origin": "Origin",
+      "process": "Process",
+      "roast": "Roast Profile",
+      "notes": "Tasting Notes",
+      "hours": "Hours",
+      "address": "Address",
+      "transit": "Transit",
+      "statusOpen": "Bar Open Daily",
+      "currency": "EUR"
+    },
+    "dietary": {
+      "vegan": "Vegan",
+      "oat": "Oat Default",
+      "gluten": "Contains Gluten",
+      "dairy": "Contains Dairy",
+      "caffeineFree": "Caffeine-Free"
+    },
+    "form": {
+      "heading": "Direct Inquiry",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@example.com",
+      "topicLabel": "Subject",
+      "topicGeneral": "General Inquiry",
+      "topicWholesale": "Wholesale & Roastery",
+      "topicEvents": "Private Cupping",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your question or cupping request...",
+      "submittedNotice": "Thank you. Your message has been logged by the bar team."
+    },
+    "footer": {
+      "colophon": "Stark Minimal Espresso Bar — Built with buildless Vue 3 & JSON i18n",
+      "copyright": "© Kitsi Coffee Bar. All rights reserved."
+    }
+  },
+  "content": {
+    "hero": {
+      "eyebrow": "ARCHITECTURAL ESPRESSO & PRECISION FILTER",
+      "title": "Concrete, steam, and single-origin clarity.",
+      "subtitle": "Inspired by Tokyo stand-bars and Nordic light roasts. Every cup is weighed to the tenth of a gram and served without noise.",
+      "featuredNote": "Current hopper: Ethiopia Yirgacheffe Worka — washed bergamot & white peach."
+    },
+    "highlights": {
+      "precision": {
+        "index": "01",
+        "title": "Gravimetric Extraction",
+        "body": "Every espresso shot and hand-pour is brewed by ratio, water mineral profile, and temperature curve."
+      },
+      "space": {
+        "index": "02",
+        "title": "Monochrome Calm",
+        "body": "Raw concrete counters, stainless steel, and unhurried acoustics designed for fifteen minutes of focus."
+      },
+      "sourcing": {
+        "index": "03",
+        "title": "Micro-Lot Transparency",
+        "body": "Seasonal small-holder harvests roasted ultra-clean to preserve terroir over roast character."
+      }
+    },
+    "menu": {
+      "heading": "Bar Menu",
+      "lead": "Concise daily offerings. All milk beverages are steamed with barista oat milk by default; organic dairy is available on request.",
+      "categories": {
+        "espresso": "01 / Espresso & Filter",
+        "matcha": "02 / Matcha & Botanicals",
+        "pastry": "03 / Counter Bakery"
+      },
+      "items": {
+        "hand_pour": {
+          "title": "V60 Single-Origin Pour",
+          "description": "Hand-brewed filter coffee to order from our rotating micro-lot shelf. Served in a carafe with a preheated tasting glass."
+        },
+        "double_espresso": {
+          "title": "Double Espresso",
+          "description": "18g in, 40g out. Bright acidity, syrupy body, and a clean floral finish."
+        },
+        "oat_cortado": {
+          "title": "Tokyo Cortado",
+          "description": "Equal parts double ristretto and micro-textured oat milk served in a 120ml tempered glass."
+        },
+        "cold_brew_tonic": {
+          "title": "Yuzu Espresso Tonic",
+          "description": "Chilled washed-lot espresso layered over dry botanical tonic water and aromatic Kochi yuzu peel."
+        },
+        "ceremonial_matcha": {
+          "title": "Uji Ceremonial Usucha",
+          "description": "First-harvest stone-milled Uji matcha whisked to order with 78°C soft spring water."
+        },
+        "hojicha_latte": {
+          "title": "Roasted Hojicha Latte",
+          "description": "Charcoal-roasted Kyoto green tea stems steamed with silky oat milk. Naturally low in caffeine with smoky cacao notes."
+        },
+        "black_sesame_financier": {
+          "title": "Black Sesame Financier",
+          "description": "Crisp-edged toasted almond and black sesame cake baked fresh each morning."
+        },
+        "cardamom_knot": {
+          "title": "Crushed Cardamom Knot",
+          "description": "Nordic sourdough brioche laminated with freshly mortar-ground green cardamom pods and pearl sugar."
+        }
+      }
+    },
+    "about": {
+      "heading": "Philosophy & Roast",
+      "lead": "Kitsi strips the coffee house down to two essentials: raw agricultural excellence and disciplined extraction.",
+      "storyTitle": "Less Ornament, More Coffee",
+      "storyP1": "Founded after years studying Tokyo's six-seat kissaten and Nordic micro-roasteries, Kitsi was built as an antidote to cluttered menus and over-syruped drinks.",
+      "storyP2": "Our counter is a continuous slab of cast concrete and brushed steel—no barriers between the grinder, the brewer, and the guest.",
+      "lotsHeading": "Current Origin Lots on Bar",
+      "lotsLead": "Available as filter pours at the bar or in 250g whole-bean tins.",
+      "lots": {
+        "worka": {
+          "name": "Worka Sakaro #04",
+          "origin": "Gedeb, Ethiopia (2,150 m)",
+          "process": "Washed, 72h fermentation",
+          "roast": "Light / Filter & Modern Espresso",
+          "notes": "Bergamot, white peach, jasmine tea"
+        },
+        "huila": {
+          "name": "Finca El Diviso",
+          "origin": "Huila, Colombia (1,850 m)",
+          "process": "Pink Bourbon, Honey process",
+          "roast": "Light-Medium / Espresso",
+          "notes": "Red currant, panela, roasted cacao nib"
+        },
+        "uji": {
+          "name": "Samidori First Flush",
+          "origin": "Uji, Kyoto Prefecture, Japan",
+          "process": "Shade-grown tencha, granite-milled",
+          "roast": "Unroasted Botanical",
+          "notes": "Sweet nori, steamed edamame, lingering umami"
+        }
+      }
+    },
+    "visit": {
+      "heading": "Visit the Bar",
+      "lead": "No reservations. Walk in, take a seat at the concrete bar, or carry out.",
+      "locations": {
+        "punavuori": {
+          "name": "Kitsi 01 — Flagship Espresso Bar",
+          "city": "Helsinki",
+          "address": "Pursimiehenkatu 14, 00150 Helsinki",
+          "hours": "Mon–Fri 07:30–17:00 · Sat–Sun 09:00–16:00",
+          "transit": "Tram 1, 3, 6 (Iso Roobertinkatu / Telakkakatu)",
+          "note": "Full pour-over bar, retail bean shelf, and 14 concrete bench seats."
+        },
+        "grunerlokka": {
+          "name": "Kitsi 02 — Stand Bar",
+          "city": "Oslo",
+          "address": "Thorvald Meyers gate 42, 0555 Oslo",
+          "hours": "Mon–Fri 07:30–16:30 · Sat–Sun 09:30–16:00",
+          "transit": "Tram 11, 12, 18 (Olaf Ryes plass)",
+          "note": "Express standing espresso bar and Uji matcha counter."
+        }
+      }
+    }
+  }
+}

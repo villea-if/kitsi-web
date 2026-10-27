@@ -1,0 +1,63 @@
+/**
+ * KITSI DESIGN SYSTEM — TOKENS
+ * Aesthetic: Stark Modern Tokyo Espresso Bar (Monochrome & Concrete)
+ *
+ * Principles:
+ * - Architectural grid with exposed 1px hairline borders
+ * - High-contrast monochrome palette (cast concrete, alabaster, pure carbon black)
+ * - Geometric sans-serif paired with technical monospace metadata & tabular numerals
+ * - Generous negative space ("Ma") and zero decorative clutter
+ */
+
+:root {
+  /* Color Palette — Monochrome & Concrete */
+  --color-bg: #F4F4F2;              /* Raw alabaster / light concrete */
+  --color-surface: #FFFFFF;         /* Pure white card/counter surface */
+  --color-surface-muted: #EAEAE6;   /* Cast concrete subtle fill */
+  --color-surface-inverse: #0E0E0E; /* Carbon black surface */
+
+  --color-ink: #0E0E0E;             /* Primary carbon black text */
+  --color-ink-secondary: #4A4A46;   /* Architectural graphite text */
+  --color-ink-muted: #767670;       /* Technical metadata grey */
+  --color-ink-inverse: #F4F4F2;     /* Light text on carbon background */
+
+  --color-border: #D4D4CE;          /* Hairline structural grid border */
+  --color-border-strong: #0E0E0E;   /* High-contrast structural rule */
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  /* Font Sizes — Modular Scale */
+  --text-xs: 0.75rem;     /* 12px — Technical labels & codes */
+  --text-sm: 0.875rem;    /* 14px — Secondary copy & UI controls */
+  --text-base: 1rem;      /* 16px — Body text */
+  --text-lg: 1.25rem;     /* 20px — Lead paragraphs & item titles */
+  --text-xl: 1.625rem;    /* 26px — Section titles */
+  --text-2xl: clamp(2rem, 4vw, 3.25rem); /* Hero & page headings */
+
+  /* Line Heights & Tracking */
+  --leading-tight: 1.12;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+  --tracking-tight: -0.025em;
+  --tracking-wide: 0.08em;
+  --tracking-widest: 0.14em;
+
+  /* Spacing Scale (8px architectural baseline) */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.5rem;    /* 24px */
+  --space-6: 2rem;      /* 32px */
+  --space-7: 3rem;      /* 48px */
+  --space-8: 4.5rem;    /* 72px */
+  --space-9: 6rem;      /* 96px */
+
+  /* Layout & Structural Grid */
+  --container-max: 1160px;
+  --border-hairline: 1px solid var(--color-border);
+  --border-heavy: 1px solid var(--color-border-strong);
+  --transition-fast: 140ms cubic-bezier(0.16, 1, 0.3, 1);
+}

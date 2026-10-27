@@ -1,0 +1,192 @@
+{
+  "ui": {
+    "brand": {
+      "name": "KITSI",
+      "code": "KTS // 01"
+    },
+    "nav": {
+      "home": "Indeks",
+      "menu": "Meny",
+      "about": "Filosofi",
+      "visit": "Besøk & Kontakt"
+    },
+    "locale": {
+      "label": "Språk",
+      "fi": "FI",
+      "en": "EN",
+      "no": "NO",
+      "sv": "SV",
+      "keys": "KEYS",
+      "keysHint": "Nøkkelinspeksjon aktiv — viser i18n-nøkkelstier fra en.json"
+    },
+    "actions": {
+      "exploreMenu": "Utforsk menyen",
+      "ourPhilosophy": "Les vår filosofi",
+      "findUs": "Steder & åpningstider",
+      "filterAll": "Alle oppføringer",
+      "sendMessage": "Send melding",
+      "resetForm": "Tøm"
+    },
+    "labels": {
+      "category": "Kategori",
+      "price": "Pris",
+      "dietary": "Dietter & allergener",
+      "origin": "Opprinnelse",
+      "process": "Prosess",
+      "roast": "Brenneprofil",
+      "notes": "Smaksnoter",
+      "hours": "Åpningstider",
+      "address": "Adresse",
+      "transit": "Kollektiv",
+      "statusOpen": "Åpent hver dag",
+      "currency": "EUR"
+    },
+    "dietary": {
+      "vegan": "Vegansk",
+      "oat": "Havre som standard",
+      "gluten": "Inneholder gluten",
+      "dairy": "Inneholder melk",
+      "caffeineFree": "Koffeinfri"
+    },
+    "form": {
+      "heading": "Direkte henvendelse",
+      "nameLabel": "Navn",
+      "namePlaceholder": "Ditt navn",
+      "emailLabel": "E-post",
+      "emailPlaceholder": "navn@eksempel.no",
+      "topicLabel": "Emne",
+      "topicGeneral": "Generell henvendelse",
+      "topicWholesale": "Engros & brenneri",
+      "topicEvents": "Privat cupping",
+      "messageLabel": "Melding",
+      "messagePlaceholder": "Skriv ditt spørsmål eller ønske om smaking...",
+      "submittedNotice": "Takk. Meldingen din er registrert hos barteamet."
+    },
+    "footer": {
+      "colophon": "Minimalistisk espressobar — Bygget uten byggetrinn med Vue 3 & JSON i18n",
+      "copyright": "© Kitsi Coffee Bar. Alle rettigheter forbeholdt."
+    }
+  },
+  "content": {
+    "hero": {
+      "eyebrow": "ARKITEKTONISK ESPRESSO & PRESISJONSFILTER",
+      "title": "Betong, damp og renhet fra enkeltgårder.",
+      "subtitle": "Inspirert av stående kaffebarer i Tokyo og nordisk lysbrent kaffe. Hver kopp veies til tidels gram og serveres uten støy.",
+      "featuredNote": "På kvernen nå: Ethiopia Yirgacheffe Worka — vasket bergamott & hvit fersken."
+    },
+    "highlights": {
+      "precision": {
+        "index": "01",
+        "title": "Gravimetrisk ekstraksjon",
+        "body": "Hver espresso og håndbrygg brygges etter nøyaktig forholdstall, vannets mineralprofil og temperaturkurve."
+      },
+      "space": {
+        "index": "02",
+        "title": "Monokrom ro",
+        "body": "Rå betongdisker, børstet stål og rolig akustikk skapt for femten minutter med fokus."
+      },
+      "sourcing": {
+        "index": "03",
+        "title": "Sporbare mikropartier",
+        "body": "Sesongbaserte innhøstinger fra småbrukere brennes ultrarent for å bevare jordsmonn fremfor brennepreg."
+      }
+    },
+    "menu": {
+      "heading": "Barmeny",
+      "lead": "Konsist daglig utvalg. Alle melkedrikker steames med havremelk som standard; økologisk kumelk fås på forespørsel.",
+      "categories": {
+        "espresso": "01 / Espresso & Filter",
+        "matcha": "02 / Matcha & Botanisk",
+        "pastry": "03 / Diskbakeri"
+      },
+      "items": {
+        "hand_pour": {
+          "title": "V60 Single-Origin Håndbrygg",
+          "description": "Filterkaffe brygget for hånd på bestilling fra vår roterende mikrohylle. Serveres i karaffel med forvarmet smaksglass."
+        },
+        "double_espresso": {
+          "title": "Dobbel Espresso",
+          "description": "18 g inn, 40 g ut. Klar syrlighet, sirupsaktig munnfølelse og en ren, floral avslutning."
+        },
+        "oat_cortado": {
+          "title": "Tokyo Cortado",
+          "description": "Like deler dobbel ristretto og mikrosteamt havremelk servert i et 120 ml herdet glass."
+        },
+        "cold_brew_tonic": {
+          "title": "Yuzu Espresso Tonic",
+          "description": "Avkjølt vasket espresso lagt lagvis over tørr botanisk tonic og aromatisk yuzuskall fra Kochi."
+        },
+        "ceremonial_matcha": {
+          "title": "Uji Ceremonial Usucha",
+          "description": "Førstehøstet, steinkvernet Uji-matcha pisket på bestilling med 78 °C bløtt kildevann."
+        },
+        "hojicha_latte": {
+          "title": "Ristet Hojicha Latte",
+          "description": "Kullristede grønne testilker fra Kyoto steamet med silkemyk havremelk. Naturlig lavt koffeininnhold med toner av røkt kakao."
+        },
+        "black_sesame_financier": {
+          "title": "Financier med svart sesam",
+          "description": "Sprø mandel- og svart sesamkake bakt fersk hver morgen."
+        },
+        "cardamom_knot": {
+          "title": "Kardemommeknute",
+          "description": "Nordisk surdeigsbrioche laminert med nymortert grønn kardemomme og perlesukker."
+        }
+      }
+    },
+    "about": {
+      "heading": "Filosofi & Brenning",
+      "lead": "Kitsi skreller kaffebaren ned til to grunnsteiner: råvarekvalitet fra gården og disiplinert ekstraksjon.",
+      "storyTitle": "Mindre pynt, mer kaffe",
+      "storyP1": "Etter år med studier av Tokyos seks-seters kissaten og nordiske mikrobrennerier, ble Kitsi bygget som en motvekt til overfylte menyer og sirupstunge drikker.",
+      "storyP2": "Disken vår er en sammenhengende blokk av støpt betong og børstet stål — ingen barrierer mellom kvern, brygger og gjest.",
+      "lotsHeading": "Aktuelle kaffepartier i baren",
+      "lotsLead": "Tilgjengelig som håndbrygg i baren eller i 250 g bokser med hele bønner.",
+      "lots": {
+        "worka": {
+          "name": "Worka Sakaro #04",
+          "origin": "Gedeb, Etiopia (2 150 m)",
+          "process": "Vasket, 72 t fermentering",
+          "roast": "Lys / Filter & moderne espresso",
+          "notes": "Bergamott, hvit fersken, sjasmin-te"
+        },
+        "huila": {
+          "name": "Finca El Diviso",
+          "origin": "Huila, Colombia (1 850 m)",
+          "process": "Pink Bourbon, Honey-prosess",
+          "roast": "Lys-medium / Espresso",
+          "notes": "Rips, panela-rørsukker, ristede kakaonibs"
+        },
+        "uji": {
+          "name": "Samidori First Flush",
+          "origin": "Uji, Kyoto-prefekturet, Japan",
+          "process": "Skyggedyrket tencha, granittkvernet",
+          "roast": "Ubrent botanisk",
+          "notes": "Søt nori, dampet edamame, vedvarende umami"
+        }
+      }
+    },
+    "visit": {
+      "heading": "Besøk baren",
+      "lead": "Ingen reservasjoner. Kom innom, ta plass ved betongbaren, eller ta med.",
+      "locations": {
+        "punavuori": {
+          "name": "Kitsi 01 — Flaggskip Espressobar",
+          "city": "Helsingfors",
+          "address": "Pursimiehenkatu 14, 00150 Helsinki",
+          "hours": "Man–Fre 07:30–17:00 · Lør–Søn 09:00–16:00",
+          "transit": "Trikk 1, 3, 6 (Iso Roobertinkatu / Telakkakatu)",
+          "note": "Full håndbryggbar, bønnehylle og 14 sitteplasser på betongbenk."
+        },
+        "grunerlokka": {
+          "name": "Kitsi 02 — Stående kaffebar",
+          "city": "Oslo",
+          "address": "Thorvald Meyers gate 42, 0555 Oslo",
+          "hours": "Man–Fre 07:30–16:30 · Lør–Søn 09:30–16:00",
+          "transit": "Trikk 11, 12, 18 (Olaf Ryes plass)",
+          "note": "Ekspress stående espressobar og Uji-matchadisk."
+        }
+      }
+    }
+  }
+}

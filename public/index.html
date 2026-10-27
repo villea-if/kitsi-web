@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KITSI // Architectural Espresso &amp; Filter Bar</title>
+    <meta
+      name="description"
+      content="Kitsi — Stark modern espresso and filter coffee bar. Built with buildless Vue 3, Vue Router, and live multi-locale JSON i18n."
+    />
+
+    <!-- Design System Stylesheets -->
+    <link rel="stylesheet" href="./assets/css/tokens.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- Vendored Third-Party Libraries (Vue 3, Vue Router 4, Vue I18n 9) -->
+    <script src="./vendor/vue.global.js"></script>
+    <script src="./vendor/vue-router.global.js"></script>
+    <script src="./vendor/vue-i18n.global.js"></script>
+
+    <!-- Domain Catalog & file:// JSON Fallback -->
+    <script src="./app/data/catalog.js"></script>
+    <script src="./app/data/locales-fallback.js"></script>
+
+    <!-- Vue Components & Page Views -->
+    <script src="./app/components/AppShell.js"></script>
+    <script src="./app/pages/HomePage.js"></script>
+    <script src="./app/pages/MenuPage.js"></script>
+    <script src="./app/pages/AboutPage.js"></script>
+    <script src="./app/pages/VisitPage.js"></script>
+
+    <!-- Application Bootstrap -->
+    <script src="./app/main.js"></script>
+  </body>
+</html>
